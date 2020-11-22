@@ -26,35 +26,41 @@
 
 # > 京东农场 (By liuxiaoyucc、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动- 东东农场
-京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,wake-system=1
+京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js,wake-system=1
 
 # > 京东萌宠 (By liuxiaoyucc、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-东东萌宠
-京东萌宠= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,wake-system=1
+京东萌宠= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js,wake-system=1
 
 # > 京东宠汪汪 (By uniqueque、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-宠汪汪
-京东宠汪汪= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=1
-宠汪汪积分兑换奖品= type=cron,cronexp=0 0 0-16/8 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,wake-system=1
-宠汪汪喂食= type=cron,cronexp=0 0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js,wake-system=1
-宠汪汪偷好友积分与狗粮= type=cron,cronexp=0 0,6 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,wake-system=1
+京东宠汪汪= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js,wake-system=1
+宠汪汪积分兑换奖品= type=cron,cronexp=0 0 0-16/8 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js,wake-system=1
+宠汪汪喂食= type=cron,cronexp=0 0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_feedPets.js,wake-system=1
+宠汪汪偷好友积分与狗粮= type=cron,cronexp=0 0,6 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js,wake-system=1
+京东宠汪汪助力= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_help.js,wake-system=1
+京东宠汪汪赛跑= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_run.js,wake-system=1
+京东宠汪汪聚宝盆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_petTreasureBox.js,wake-system=1
+进店领豆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,wake-system=1
+摇豆豆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js,wake-system=1
+摇豆豆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js,wake-system=1
 
 # > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-种豆得豆
-京东种豆得豆= type=cron,cronexp=8 7-21/3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,wake-system=1
+京东种豆得豆= type=cron,cronexp=8 7-21/3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js,wake-system=1
 
 # > 京东摇钱树 (By lxk0301)
 # 京东App - 右下角"我的"- 游戏与互动-摇钱树
-京东摇钱树=type=cron,cronexp=*/6 * * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js,wake-system=1
+京东摇钱树=type=cron,cronexp=*/6 * * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_moneyTree.js,wake-system=1
 
 # > 京东加速 (By lxk0301)
 # 京东App - 右下角"我的"- 游戏与互动-天天加速
-京东加速=type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js,wake-system=1
+京东加速=type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_speed.js,wake-system=1
 
 # > 取关京东店铺商品 (By lxk0301)
-取关京东店铺商品 = type=cron,cronexp=55 23 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js
+取关京东店铺商品 = type=cron,cronexp=55 23 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js
 
 # > 京小超(By lxk0301)
 # 京东App - 右下角"我的"- 游戏与互动-京小超
-京小超-任务= type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js,wake-system=1
-京小超-小费= type=cron,cronexp=30 7 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js,wake-system=1
+京小超-任务= type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js,wake-system=1
+京小超-小费= type=cron,cronexp=30 7 0 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,wake-system=1
