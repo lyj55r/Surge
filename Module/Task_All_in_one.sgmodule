@@ -43,7 +43,7 @@
 京东宠汪汪聚宝盆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_petTreasureBox.js,wake-system=1
 进店领豆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,wake-system=1
 摇豆豆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js,wake-system=1
-摇豆豆= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js,wake-system=1
+京豆变动= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js,wake-system=1
 
 # > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-种豆得豆
